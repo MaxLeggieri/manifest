@@ -9,7 +9,6 @@
         
         <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
         <project name="LineageOS/android_external_bluetooth_bluez" path="external/bluetooth/bluez" remote="github" revision="refs/heads/cm-9.1.0" />
-        <project name="LineageOS/android_external_dbus" path="external/dbus" remote="github" revision="refs/heads/cm-9.1.0" />
         
         <remove-project name="LineageOS/android_frameworks_av" />
         <project name="gtelwifi/android_frameworks_av" path="frameworks/av" remote="github" />
@@ -84,15 +83,5 @@
         revision="refs/heads/master"
         />
         
-        <remote name="gc"
-    fetch="https://code.google.com/p/" />
         
-        <remote name="korg"
-    fetch="git://git.kernel.org/pub/scm/bluetooth/" />
-        
-        <project path="external/bluetooth/glib" name="android-bluez.glib.git"
-    remote="gc" revision="lollipop" />
-
-  <project path="external/bluetooth/sbc" name="sbc.git"
-    remote="korg" revision="master" />
 </manifest>
