@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
-        <project name="gtelwifi/android_device_samsung_gtelwifi" path="device/samsung/gtelwifi" remote="github" />
+        <project name="MaxLeggieri/android_device_samsung_gtelwifi" path="device/samsung/gtelwifi" remote="github" />
         <project name="gtelwifi/android_kernel_samsung_gtelwifi" path="kernel/samsung/gtelwifi" remote="github" />
         <project name="gtelwifi/android_vendor_samsung_gtelwifi" path="vendor/samsung/gtelwifi" remote="github" />
         
