@@ -98,7 +98,7 @@
     <project name="platform_frameworks_base"
         path="frameworks/base"
         remote="github_ant-wireless"
-        revision="refs/heads/master"
+        revision="refs/heads/bluetooth-vendorspecific-interface-4.4_r1.2-backport"
         />
         
         
