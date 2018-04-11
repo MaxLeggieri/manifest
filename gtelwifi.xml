@@ -89,5 +89,12 @@
         remote="github_ant-wireless"
         revision="refs/heads/master"
         />
+       
+    <remove-project name="LineageOS/android_hardware_libhardware" />
+    <project name="platform_hardware_libhardware"
+        path="hardware/libhardware"
+        remote="github_ant-wireless"
+        revision="refs/heads/master"
+        />
         
 </manifest>
