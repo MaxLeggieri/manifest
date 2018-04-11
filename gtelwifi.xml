@@ -101,4 +101,8 @@
         revision="refs/heads/master"
         />
         
+        
+    <remove-project name="LineageOS/android_frameworks_testing" />
+        
+        
 </manifest>
