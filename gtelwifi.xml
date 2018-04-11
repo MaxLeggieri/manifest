@@ -91,7 +91,7 @@
     fetch="git://git.kernel.org/pub/scm/bluetooth/" />
         
         <project path="external/bluetooth/glib" name="android-bluez.glib.git"
-    remote="gc" revision="kitkat" />
+    remote="gc" revision="lollipop" />
 
   <project path="external/bluetooth/sbc" name="sbc.git"
     remote="korg" revision="master" />
