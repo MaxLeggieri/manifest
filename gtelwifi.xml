@@ -75,4 +75,10 @@
         remote="github_ant-wireless"
         revision="refs/heads/master"
         />
+        
+    <project name="platform_system_bluetooth"
+        path="system/bluetooth"
+        remote="github_ant-wireless"
+        revision="refs/heads/master"
+        />
 </manifest>
