@@ -4,6 +4,9 @@
         <project name="gtelwifi/android_kernel_samsung_gtelwifi" path="kernel/samsung/gtelwifi" remote="github" />
         <project name="gtelwifi/android_vendor_samsung_gtelwifi" path="vendor/samsung/gtelwifi" remote="github" />
         
+        <remove-project name="LineageOS/android_vendor_cm" >
+        <project path="vendor/cm" name="MaxLeggieri/android_vendor_cm" >
+        
         <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
         <remove-project name="LineageOS/android_frameworks_av" />
