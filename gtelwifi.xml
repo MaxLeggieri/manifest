@@ -70,9 +70,9 @@
         />
         
     <remove-project name="LineageOS/android_external_bluetooth_bluedroid" />
-    <project name="platform_external_bluetooth_bluedroid"
+    <project name="MaxLeggieri/platform_external_bluetooth_bluedroid"
         path="external/bluetooth/bluedroid"
-        remote="github_ant-wireless"
+        remote="github"
         revision="refs/heads/master"
         />
         
