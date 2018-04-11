@@ -83,4 +83,16 @@
         remote="github_ant-wireless"
         revision="refs/heads/master"
         />
+        
+        <remote name="gc"
+    fetch="https://code.google.com/p/" />
+        
+        <remote name="korg"
+    fetch="git://git.kernel.org/pub/scm/bluetooth/" />
+        
+        <project path="external/bluetooth/glib" name="android-bluez.glib.git"
+    remote="gc" revision="kitkat" />
+
+  <project path="external/bluetooth/sbc" name="sbc.git"
+    remote="korg" revision="master" />
 </manifest>
