@@ -20,7 +20,7 @@
         <project name="platform_hardware_libhardware"
             path="hardware/libhardware"
             remote="github_ant-wireless"
-            revision="refs/heads/master"
+            revision="refs/heads/bluetooth-vendorspecific-interface-4.4_r1.2-backport"
         />
         
         <remove-project name="LineageOS/android_external_tinyalsa" />
@@ -78,7 +78,7 @@
     <project name="MaxLeggieri/platform_external_bluetooth_bluedroid"
         path="external/bluetooth/bluedroid"
         remote="github"
-        revision="refs/heads/master"
+        revision="refs/heads/bluetooth-vendorspecific-interface-4.4_r1.2-backport"
         />
         
     <project name="platform_system_bluetooth"
@@ -91,7 +91,7 @@
     <project name="platform_packages_apps_Bluetooth"
         path="packages/apps/Bluetooth"
         remote="github_ant-wireless"
-        revision="refs/heads/master"
+        revision="refs/heads/bluetooth-vendorspecific-interface-4.4_r1.2-backport"
         />
     
     <remove-project name="LineageOS/android_frameworks_base" />
