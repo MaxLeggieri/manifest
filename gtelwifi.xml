@@ -93,7 +93,12 @@
         remote="github_ant-wireless"
         revision="refs/heads/master"
         />
-       
     
+    <remove-project name="LineageOS/android_frameworks_base" />
+    <project name="platform_frameworks_base"
+        path="frameworks/base"
+        remote="github_ant-wireless"
+        revision="refs/heads/master"
+        />
         
 </manifest>
