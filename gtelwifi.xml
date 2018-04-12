@@ -53,7 +53,7 @@
     <project name="Linux_ant-hal"
         path="external/ant-wireless/ant-hal"
         remote="github_ant-wireless"
-        revision="refs/heads/master"
+        revision="refs/heads/dev"
         />
 
     <project name="Android_ANTHALService"
