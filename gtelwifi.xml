@@ -10,6 +10,9 @@
         <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
         
         
+        <remove-project name="LineageOS/android_frameworks_av" />
+        <project name="gtelwifi/android_frameworks_av" path="frameworks/av" remote="github" />
+        
         <remove-project name="LineageOS/android_frameworks_native" />
         <project name="gtelwifi/android_frameworks_native" path="frameworks/native" remote="github" />
 
